@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Workday Assist</title>
+        <link rel="stylesheet" href="sidepanel.css">
+    </head>
+    <body>
+        <div id="topBtns">
+            <button class="helpBtn" id="logIn">LOG IN</button>
+            <button class="helpBtn" id="signUp">SIGN UP</button>
+        </div>
+        <section id="credentials">
+            <h1>CREDENTIALS</h1>
+            <div class="container">
+                <form>
+                    <div class="row">
+                        <label class="col-25" for="email">Email</label>
+                        <input class="col-75" type="text" id="email" name="email" placeholder="Your email..">
+                    </div>
+                    <div class="row">
+                        <label class="col-25" for="password">Password</label>
+                        <input class="col-75" type="text" id="password" name="password" placeholder="Your password..">
+                    </div>
+                    <div class="row">
+                        <input id="saveCred" type="submit" value="SAVE">
+                    </div>
+                </form>
+                <p class="note">Note: The above credentials will be used for logging in and signing up to your workday accounts.</p>
+            </div>
+        </section>
+        <script src="sidepanel.js"></script>
+    </body>
+</html>

@@ -1,0 +1,34 @@
+{
+    "manifest_version": 3,
+    "name": "Workday Assistant",
+    "description": "Workday Assistant for Job Hunters",
+    "version": "1.0",
+    "permissions": [
+        "storage",
+        "sidePanel",
+        "activeTab", 
+        "tabs", 
+        "scripting"
+    ],
+    "background": {
+        "service_worker": "service-worker.js"
+    },
+    "side_panel": {
+        "default_path": "sidepanel.html"
+    },
+    "action": {
+        "default_title": "Click to open side panel"
+    },
+    "icons": {
+        "16": "images/icon.png",
+        "32": "images/icon.png",
+        "48": "images/icon.png",
+        "128": "images/icon.png"
+    },
+    "content_scripts": [
+        {
+            "matches": ["<all_urls>"],
+            "js": ["scripts/content.js"]
+        }
+    ]
+}

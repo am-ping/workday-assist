@@ -1,1 +1,2 @@
-# workday-assist
+## Attribution
+Extension icon used in this project is created by [Sir.Vector](https://www.flaticon.com/authors/sirvector) and available on [Flaticon](https://www.flaticon.com/free-icon/clock_11060995?related_id=11060995&origin=pack).
