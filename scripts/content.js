@@ -22,7 +22,10 @@ async function logIn(credentials) {
 
 async function signUp(credentials) {
   const { email, password } = credentials;
-  document.querySelector('[data-automation-id="createAccountCheckbox"]').click();
+  const createAccountCheckbox = document.querySelector('[data-automation-id="createAccountCheckbox"]');
+  if (createAccountCheckbox) {
+    createAccountCheckbox.click();
+  }
   document.querySelector(`[data-automation-id="email"]`).focus();
   document.querySelector(`[data-automation-id="email"]`).value = "";
   document.execCommand('insertText', false, email);
