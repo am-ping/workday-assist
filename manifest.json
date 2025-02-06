@@ -5,18 +5,12 @@
     "version": "1.0",
     "permissions": [
         "storage",
-        "sidePanel",
         "activeTab", 
         "tabs", 
         "scripting"
     ],
-    "background": {
-        "service_worker": "service-worker.js"
-    },
-    "side_panel": {
-        "default_path": "sidepanel.html"
-    },
     "action": {
+        "default_popup": "popup.html",
         "default_title": "Click to open side panel"
     },
     "icons": {
