@@ -1,5 +1,6 @@
 const logInBtn = document.querySelector('#logIn');
 const signUpBtn = document.querySelector('#signUp');
+const deleteCred = document.querySelector('#deleteCred');
 
 logInBtn.addEventListener("click", async () => {
     chrome.storage.local.get(['workdayCred'], (data) => {
@@ -26,6 +27,13 @@ signUpBtn.addEventListener("click", async () => {
         }
     });
 });
+
+deleteCred.addEventListener("click", async () => {
+    chrome.storage.local.remove(['workdayCred'], (data) => {
+        deleteCred.value = "DELETED";
+    });
+});
+
 
 document.addEventListener('DOMContentLoaded', function () {
     chrome.storage.local.get(['workdayCred'], function (data) {

@@ -65,13 +65,28 @@ label {
     margin-bottom: 12px;
 }
 
+#submitBtns {
+    display: flex;
+    justify-content: space-between;
+}
+
 input[type=submit] {
-    background-color:lightgreen;
-    width: 100%;
     padding: 12px 20px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
+}
+
+#saveCred {
+    background-color: cadetblue;
+    width: 70%;
+    margin-right: 5px;
+}
+
+#deleteCred {
+    background-color: coral;
+    width: 30%;
+    padding: 0;
 }
 
 .col-25 {
