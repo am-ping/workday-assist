@@ -1,13 +1,15 @@
-# Workday Assist  
+# Workday Sign In Helper  
 Tired of repeatedly signing up for every Workday job portal?  
 Many companies use Workday to list job postings, requiring job seekers to create a new Workday account for each company. This can be time-consuming and frustrating.  
 
-## 🚀 What is Workday Assist?  
-Workday Assist makes the process effortless:  
+## 🚀 What is Workday Sign In Helper?  
+Workday Sign In Helper makes the process effortless:  
 ✅ **Save your credentials** once in the extension.  
 ✅ **Auto-fill login details** with a single click when applying for jobs.  
 ✅ **Quick sign-up** on Workday-powered portals without retyping credentials.  
 ✅ **Easily delete credentials** anytime with the **Delete** button.  
+
+⚠ **Security Tip:** For your safety, use a password that is unique and has never been used for any other account. This ensures that even if someone accesses your local storage, they cannot use the credentials for other accounts.
 
 ---
 
